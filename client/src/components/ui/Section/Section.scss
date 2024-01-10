@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: fit-content;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .form-control {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+    label {
+      width: 100px;
+    }
+
+    input {
+      border: 1px solid var(--primary-text-color);
+      border-radius: 4px;
+      width: 200px;
+      height: 24px;
+      padding: 4px;
+    }
+  }
+
+  .form-control-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
