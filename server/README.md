@@ -3,6 +3,7 @@
 #### Prerequisite
 
 - NodeJS
+- MongoDB
 
 ### Installation
 
